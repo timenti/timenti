@@ -156,20 +156,21 @@ ModeTapper разрабатываю прежде всего для **ASUS ROG Fl
 
 **Windows x64 · C# и .NET 10 · переносимый EXE**
 
-Я сделал NetSwitch Pro для сетей, у которых роутер уже настроен на разные маршруты в интернет. Например, **Russia Network** выходит напрямую, а **Germany Network** — через VPN на роутере. Выбираю обе сети один раз, вижу активное подключение и меняю выход одной кнопкой.
+Я сделал NetSwitch Pro для сетей с разными маршрутами в интернет. Например, **Russia Network** может выходить напрямую, а **Germany Network** — через VPN на роутере. На одном экране собираю свою пару из двух Wi‑Fi-профилей, двух адаптеров или Ethernet и выбранной точки доступа. Вижу текущее подключение и переключаюсь одной кнопкой в окне либо кликом по значку в трее.
 
-<a href="https://github.com/timenti/NetSwitchPro#readme"><img src="https://raw.githubusercontent.com/timenti/NetSwitchPro/main/docs/images/wifi-demo.gif" width="760" alt="Демонстрация NetSwitch Pro: настройка пары Russia Network и Germany Network и переключение между ними"></a>
+<a href="https://github.com/timenti/NetSwitchPro#readme"><img src="https://raw.githubusercontent.com/timenti/NetSwitchPro/v2.0.9/docs/images/wifi-demo.gif" width="760" alt="NetSwitch Pro. Настройка Wi-Fi-пары и смешанной пары из Ethernet и Wi-Fi в одном окне."></a>
 
 <details>
 <summary><strong>Что внутри NetSwitch Pro</strong></summary>
 
-- Сохранённая пара Wi‑Fi-профилей на одном адаптере с названием следующей сети прямо на кнопке.
-- Режим для пары интерфейсов, например Wi‑Fi и USB‑Ethernet. Программа проверяет связь на втором интерфейсе перед отключением первого.
-- Системная, светлая и тёмная темы Windows, жест между вкладками и журнал операций.
+- Пара из двух доступных подключений. Для беспроводного адаптера можно выбрать точный сохранённый Wi‑Fi-профиль или автоматическое подключение Windows.
+- Переключение выбранной пары из главного окна и трея. В меню видно текущее подключение, обе позиции пары и сохранённые Wi‑Fi-сети.
+- Управление адаптерами с проверкой готовности нового подключения и восстановлением предыдущего при сбое.
+- Автозапуск в трее, системная, светлая и тёмная темы, журнал операций.
 
 </details>
 
-[Скачать последнюю версию](https://github.com/timenti/NetSwitchPro/releases/latest) · [Код и руководство](https://github.com/timenti/NetSwitchPro#readme)
+[Скачать NetSwitch Pro](https://github.com/timenti/NetSwitchPro/releases/latest) · [Смотреть демонстрацию](https://github.com/timenti/NetSwitchPro/releases/download/v2.0.9/NetSwitchPro-demo.mp4) · [Код и руководство](https://github.com/timenti/NetSwitchPro#readme)
 
 ### AirPen
 
