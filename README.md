@@ -152,24 +152,24 @@ ModeTapper разрабатываю прежде всего для **ASUS ROG Fl
 
 </details>
 
-### NetSwitchPro
+### NetSwitch Pro
 
-**Портативная утилита Windows · C# и .NET 8**
+**Windows x64 · C# и .NET 10 · переносимый EXE**
 
-NetSwitchPro переключает два выбранных сетевых адаптера одним действием и перечитывает состояние после операции. Это удобно, когда рабочее место регулярно переключается между разными подключениями.
+Я сделал NetSwitch Pro для сетей, у которых роутер уже настроен на разные маршруты в интернет. Например, **Russia Network** выходит напрямую, а **Germany Network** — через VPN на роутере. Выбираю обе сети один раз, вижу активное подключение и меняю выход одной кнопкой.
 
-<a href="https://github.com/timenti/NetSwitchPro"><img src="assets/netswitch.webp" width="700" alt="Реальный интерфейс выбора сетевых адаптеров в NetSwitchPro"></a>
+<a href="https://github.com/timenti/NetSwitchPro#readme"><img src="https://raw.githubusercontent.com/timenti/NetSwitchPro/main/docs/images/wifi-demo.gif" width="760" alt="Демонстрация NetSwitch Pro: настройка пары Russia Network и Germany Network и переключение между ними"></a>
 
 <details>
-<summary><strong>Что внутри NetSwitchPro</strong></summary>
+<summary><strong>Что внутри NetSwitch Pro</strong></summary>
 
-- WinForms-приложение обнаруживает физические, виртуальные и Bluetooth-адаптеры через WMI.
-- Состояние меняется через методы WMI. Журнал показывает шаги, результаты и ошибки операции.
-- Настройки сохраняют выбранную пару, язык и тему. Приложение поставляется в одном исполняемом файле.
+- Сохранённая пара Wi‑Fi-профилей на одном адаптере с названием следующей сети прямо на кнопке.
+- Режим для пары интерфейсов, например Wi‑Fi и USB‑Ethernet. Программа проверяет связь на втором интерфейсе перед отключением первого.
+- Системная, светлая и тёмная темы Windows, жест между вкладками и журнал операций.
 
 </details>
 
-[Код и руководство](https://github.com/timenti/NetSwitchPro#readme)
+[Скачать последнюю версию](https://github.com/timenti/NetSwitchPro/releases/latest) · [Код и руководство](https://github.com/timenti/NetSwitchPro#readme)
 
 ### AirPen
 
